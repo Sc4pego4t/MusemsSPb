@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Проект</string>
+
+    <!--Navigation Drawer Menu Items-->
+    <string-array name="navigation_menu_items">
+        <item>Войти</item>
+        <item>О приложении</item>
+    </string-array>
+
+    <!-- RATE -->
+    <string name="rate_text">Пожалуйста, оцените наше приложение в Google Play!</string>
+    <string name="rate_now">Оценить</string>
+    <string name="rate_stop">Больше не напоминать</string>
+    <string name="rate_later">Напомнить позже</string>
+
+    <!--ACTION BAR TITLES -->
+    <string name="app">Достопримечательности СПб</string>
+
+    <!--BUTTON TEXT-->
+    <string name="enter">Войти</string>
+    <string name="signup">Зарегистрироваться</string>
+    <string name="restore_b">Восстановить</string>
+
+    <!--SNAKE BAR MESSAGES -->
+    <string name="save">Сохранено</string>
+
+    <!-- ALL -->
+    <string name="empty"></string>
+
+    <!-- Main menu -->
+    <string name="welcome">Добро пожаловать в</string>
+    <string name="project">Проект</string>
+    <string name="please_login">Пожалуйста авторизуйтесь чтобы использовать все возможности приложения</string>
+
+    <!--RESTORE ACTIVITY-->
+    <string name="title_list">List</string>
+
+
+
+    <string name="vk_app_id">6422869</string>
+
+    <string name="ok">Ок</string>
+
+    <string name="butReg"><u>зарегистрироваться</u></string>
+    <string name="s1">Список аккаунтов</string>
+    <string name="s2">Выход из профиля</string>
+    <string name="s3"><u>Войти</u></string>
+    <string name="s4"><u>Подтвердить</u></string>
+    <string name="s5">Пароль</string>
+    <string name="s6">Регистрация</string>
+    <string name="s7">Эл.почта</string>
+    <string name="s8">ФИО:</string>
+    <string name="s9">Подтвердить</string>
+    <string name="s10">Взять данные из:</string>
+    <string name="s11">Войти</string>
+    <string name="s12">Привязать к аккаунту:</string>
+    <string name="s13">Пользователь</string>
+    <string name="s14">Изменить данные:</string>
+    <string name="s15">Номер пользователя:</string>
+    <string name="s16"><u>Подтвердить</u></string>
+    <string name="s17">Вход</string>
+    <string name="s18">Выход</string>
+    <string name="s19">Изменить данные</string>
+    <string name="s20">Ваш отзыв</string>
+    <string name="s21"><u>Отзывы ▼</u></string>
+    <string name="s22"><u>Отзывы ▲</u></string>
+
+    <string name="text1">Музеи</string>
+    <string name="text2">Выставочные залы</string>
+    <string name="text3">Театры</string>
+    <string name="text4"><u>Просмотреть полный список</u></string>
+    <string name="text5">На карте</string>
+
+    <string name="currentLocation">Ваше местоположение</string>
+
+    <string-array name="titles">
+        <item>Музеи</item>
+        <item>Выставочные залы</item>
+        <item>Театры</item>
+    </string-array>
+
+    <string-array name="drawable_id">
+        <item>@drawable/mus</item>
+        <item>@drawable/zal</item>
+        <item>@drawable/teatr</item>
+    </string-array>
+
+    <string-array name="ids">
+        <item>@id/mus</item>
+        <item>@id/zal</item>
+        <item>@id/teatr</item>
+    </string-array>
+
+    <!--preference-->
+    <string name="pref">preferences</string>
+    <string name="keyid">userid</string>
+    <string name="back">backclass</string>
+
+
+<!--titles-->
+    <string name="startact">Главная</string>
+    <string name="autorize">Вход</string>
+    <string name="registratiom">Регистрация</string>
+    <string name="changeInfo">Изменение данных</string>
+    <string name="additional">Главная</string>
+
+
+
+<!--keys for socials-->
+
+    <string name="ok_app_id">1264701952</string>
+    <string name="ok_public_key">CBADNCGMEBABABABA</string>
+    <string name="ok_secret_key">981B0F75F2BAE3AECD579420</string>
+    <string name="facebook_app_id">2031949500405245</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAl_ZmnVcBtl6WfMmgG6FCYfaclASzpI-E</string>
+
+    <!--object information-->
+
+    <string-array name="objectInfo">
+        <item>Описание:</item>
+        <item>Станция метро:</item>
+        <item>Адрес:</item>
+        <item>Район:</item>
+        <item>Сайт:</item>
+        <item>Телефон:</item>
+        <item>Электронная почта:</item>
+    </string-array>
+
+    <string name="auth">Авторизация</string>
+</resources>

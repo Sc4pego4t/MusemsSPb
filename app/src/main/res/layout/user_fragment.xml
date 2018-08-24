@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/black"
+            android:text="@string/s15"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:id="@+id/usernum"
+            android:layout_height="wrap_content"
+            android:textSize="70sp"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/black"
+            android:text="@string/s14"
+            android:gravity="center"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/l1"
+            android:layout_marginStart="@dimen/editTextMargin"
+            android:layout_marginEnd="@dimen/editTextMargin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColorHint="@color/grey"
+            app:boxStrokeColor="@color/blood"
+
+            android:theme="@style/MyTextInputLayout"
+            android:layout_height="wrap_content"
+            app:counterTextAppearance="@color/grey"
+            android:hint="@string/s7">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/et1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize"
+
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/editTextMargin"
+            android:layout_marginEnd="@dimen/editTextMargin"
+            android:layout_marginTop="@dimen/margin"
+            android:theme="@style/MyTextInputLayout"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColorHint="@color/grey"
+            android:layout_height="wrap_content"
+            app:counterTextAppearance="@color/grey"
+
+            android:hint="@string/s5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/et2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s4"
+            android:layout_gravity="center"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/blood"
+            android:id="@+id/accept"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:id="@+id/text"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/black"
+            android:text="@string/s12"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="@dimen/imgSize">
+            <Button
+                android:id="@+id/vk"
+                android:layout_width="@dimen/imgSize"
+                android:layout_height="@dimen/imgSize"
+                android:background="@drawable/vk"
+                />
+            <Button
+                android:id="@+id/ok"
+                android:layout_margin="@dimen/margin"
+                android:layout_width="@dimen/imgSize"
+                android:layout_height="@dimen/imgSize"
+                android:background="@drawable/ok"
+                />
+            <Button
+                android:id="@+id/face"
+                android:layout_width="@dimen/imgSize"
+                android:layout_height="@dimen/imgSize"
+                android:background="@drawable/face"
+                />
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_slider_menu"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/slidermenu_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/topImageViewMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark">
+
+
+
+                <RelativeLayout
+                    android:id="@+id/logoutLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_LastName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:paddingLeft="18dp"
+                        android:text="@string/welcome"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView_FirstName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView_LastName"
+                        android:paddingLeft="18dp"
+                        android:text="@string/project"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView_INN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="18dp"
+                        android:text="@string/please_login"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="13dp"
+                        android:layout_below="@+id/textView_FirstName"/>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_slidermenu"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentTop="true"
+                android:choiceMode="singleChoice"/>
+        </LinearLayout>
+
+</RelativeLayout>
